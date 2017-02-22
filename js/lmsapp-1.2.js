@@ -41,7 +41,7 @@ var errorAlert = function (msg) {
 var topBanner = function(notLoaded) {
     notLoaded = notLoaded || false;
     return m("div.row" + (notLoaded ? ".text-center" : ""), m("div.col-sm-12", [
-                m("img" + (notLoaded ? ".jfdlogo" : ".jfdlogotop"), {src: "/app/lms/img/logojfdtr.png"}),
+                m("img" + (notLoaded ? ".jfdlogo" : ".jfdlogotop"), {src: "img/logojfdtr.png"}),
                 m("h2.apptitle", l.main.talentTitle()),
                 m("p", [l.main.talentDesc(), m("a[href='/help']", {config: m.route}, l.main.talentLinkTitle())])
             ]));
@@ -429,7 +429,7 @@ var LMShelp = {
                 ])
             ]),
             m("div.as-table-row",
-                m("iframe", {src: "/app/lms/help/" + l.currentLanguage() + "/index.html"})
+                m("iframe", {src: "help/" + l.currentLanguage() + "/index.html"})
             )
         ])
     }
