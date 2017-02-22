@@ -1,0 +1,203 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+div#lmscontents {
+    height: 100%;
+}
+
+div#lmsdata {
+    display: none;
+}
+
+.as-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.as-table-row {
+    display: table-row;
+    height: 100%;
+}
+
+.apptitle {
+    font-family: 'Lobster', cursive;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+.jfdtron {
+    position: relative;
+    padding: 30px 15px;
+    margin-bottom: 30px;
+    margin-left: 0;
+    margin-right: 0;
+    border-radius: 6px;
+    color: inherit;
+    background-color: #ecf0f1;
+}
+
+.col-sm-6 > .jfdtron, .col-md-4 > .jfdtron {
+    margin-top: 20px;
+}
+
+.jfdlogo {
+    width: 240px;
+    height: 240px;
+    display: block;
+    margin: 20px auto;
+}
+
+.jfdlogotop {
+    width: 64px;
+    height: 64px;
+    margin: 20px 15px;
+    float: left;
+}
+
+.scrollable-btn-group
+{
+    margin-top: 5px;
+    height: 150px;
+    overflow-y: auto;
+}
+
+.top-right
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.val
+{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.completed
+{
+    background-color: #90EE90;
+    color: #006400;
+}
+
+.completedF
+{
+    background-color: #90EE90!important;
+    color: #006400!important;
+}
+
+.completed:after, .completedF:after
+{
+    content: "\2714";
+}
+
+.assigned
+{
+    background-color: #FF6666;
+    color: #8B0000;
+}
+
+.assignedF
+{
+    background-color: #FF6666!important;
+    color: #8B0000!important;
+}
+
+.assigned:after, .assignedF:after
+{
+    content: "\2718";
+}
+
+.unassigned
+{
+    background-color: #EEEEEE;
+    color: #DDDDDD;
+}
+
+.unassignedF
+{
+    background-color: #EEEEEE!important;
+    color: #DDDDDD!important;
+}
+
+.unassigned:after, .unassignedF:after
+{
+    content: "\26D4";
+}
+
+th.row-header{
+    width: 1px;
+    white-space: nowrap;
+}
+
+.table-condensed thead th {
+    font-size: 12px;
+    line-height: 1.2!important;
+    text-align: center;
+    vertical-align: middle!important;
+}
+
+thead {
+    display: table-header-group;
+}
+
+tbody {
+    display: table-row-group;
+}
+
+@media print {
+    a[href]:after {
+        content: ""!important;
+    }
+    a {
+        text-decoration: none!important;
+    }
+    .noprint {
+        display: none;
+    }
+    .table td.completedF, .table td.completedF:before, .table td.completedF:after
+    {
+        background-color: #90EE90!important;
+        color: #006400!important;
+    }
+    .table td.assignedF, .table td.assignedF:before, .table td.assignedF:after
+    {
+        background-color: #FF6666!important;
+        color: #8B0000!important;
+    }
+    .table td.unassignedF, .table td.unassignedF:before, .table td.unassignedF:after
+    {
+        background-color: #EEEEEE!important;
+        color: #DDDDDD!important;
+    }
+}

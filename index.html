@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html class="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Talent Tool by/par Jean-François Desrochers</title>
+        <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.1/flatly/bootstrap.min.css" rel="stylesheet">
+        <link href="//fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+        <link href="/app/lms/css/lmsapp-1.2.min.css" rel="stylesheet">
+        <style type="text/css">
+
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid" id="lmscontents"></div>
+        % if data:
+        <div id="lmsdata">{{ data }}</div>
+        % end
+        <script src="//cdnjs.cloudflare.com/ajax/libs/mithril/0.2.3/mithril.min.js"></script>
+        <script src="/app/lms/js/lmsapp-1.2.lang.min.js"></script>
+        <script src="/app/lms/js/lmsapp-1.2.min.js"></script>
+        <script type="text/javascript">
+            data = new Courses();
+            m.route.mode = "hash";
+            m.route(document.getElementById("lmscontents"), "/", {
+                "/": m.component(LMSapp, data),
+                "/help": m.component(LMShelp),
+                "/:assoc": m.component(LMSassociate, data)
+            });
+        </script>
+    </body>
+</html>

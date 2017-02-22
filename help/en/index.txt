@@ -1,0 +1,106 @@
+# User Manual
+
+Welcome to Talent Tool. This application will help you in keeping track of the training of your team, but before that, let's learn how to use it.
+
+## Step 1 - Download data from Talent Track
+
+Before we can start manipulating the training data and making custom reports, we need to get that data from Talent Track. Here are the steps needed to get there.
+
+* Log on to Talent Track. You can find the link on the front page of The Hub. Alternatively, if the compute you are using is not connected to the Staples network, you can access Talent Track using this link: [http://bit.ly/talenttrack](http://bit.ly/talenttrack).
+
+* Once on Talent Track, in the menu bar, hover your cursor over `My Reports` and then click on `Custom Reports`.
+
+![](img/ttreportmenu.png)
+
+On the My Reports page, you should find the following reports:
+
+![](img/ttreports.png)
+
+Of all the reports on that list however, only the first four are interesting for us right now:
+
+CAN Compliance Training Index
+:   Represents all the **mandatory** courses that all the associates and managers of your store must complete.
+
+CAN CPC Training Index
+:   Represents the courses that Copy and Print Center associates must complete.
+
+CAN Tech Training Index
+:   Represents the courses that Easy Tech associates must complete.
+
+If your goal is to have the best training index possible, then the three reports above should do the trick. However, if you want to be able to choose between all available courses and unlock the true potential of *Talent Tool*, you need to download the following report:
+
+CAN Transcript All Status
+:   Contains **all** the courses completed by or assigned to you and your associates!
+
+For the needs of this tutorial, let's assume that we are interested in that last report. Here is how to download it:
+
+* Click on the small arrow in the column `Actions` which corresponds to the CAN Transcript All Status report.
+
+* In the menu that appears, click on `Refresh`
+
+![](img/ttrefresh.png)
+
+* Status will change to `Processing...` then it will change to today's date when it is ready to download.
+
+* Click once more on the small arrow to re-open the `Actions` menu and choose `Text` in the proposed formats. It is **important** to choose **Text**, otherwise *Talent Tool* will not be able to process it.
+
+![](img/tttext.png)
+
+> **Note:** How can we know "how fresh" the training data is? You just have to look in the fine print of the page:
+![](img/ttdata.png)
+
+Now that you have the data file, the real fun can begin!
+
+## Step 2 - Generate personalized reports with Talent Tool
+
+You have just completed the *hardest* part of this tutorial! Now let's see what *Talent Tool* has to offer. If you wish to continue following this document while playing with the program, [right-click on this link](https://jfdft.com/lms) and choose `Open in a new tab`. Once on the website, click on `Browse for file...` and choose the file that you have downloaded in the previous step.
+
+![](img/openfile.png) 
+
+> **Note:** If you don't get anything when you click the `Browse for file...` button, you may be trying to access *Talent Tool* from an unsupported browser. Please note that this page supports Google Chrome, Mozilla Firefox, Apple Safari (basically any browser except Microsoft Internet Explorer). My recommendation is Google Chrome because it allow for 'printing' directly to PDF and it gets *by far* the best print quality.
+
+You should now have arrived at the following screen:
+
+![](img/interface.png)
+
+(1) File selection buttons.
+:   Click on these buttons if you want to load another report or if you want to erase everything and start over.
+
+(2) Course selection list.
+:   This list contains all the courses contained in the report that you loaded. You can add or remove a course from the table by clicking on it.
+
+(3) Selection buttons.
+:   Click on those buttons to either add or remove *all* the courses on the table. **Caution**: this operation will occur regardless of the selections you have already made.
+
+(4) Filter field.
+:   With the high amount of courses that can be available in a report, it can be hard to find exactly the one you are looking for. By entering a few keywords in that field you will significantly narrow the choice and be able to more easily find the right course.
+
+(5) Clear field button.
+:   This one is rather obvious: it simply clears the filter field, allowing you to enter a new query. Note that you can also empty the field by hitting the `esacpe` key on your keyboard.
+
+(6) Color printing option.
+:   By default, the table is converted in black and white before printing. The goal is to have it easier to read and to save printer ink. However, if you prefer the clear-cut *flashiness* of the colored columns, you just have to check this box. **Note**: some browsers will disable printing for background colors and graphics. If you don't see any colors, look for an option to enable `Background graphics` in the print preview window.
+
+(7) Print button.
+:   Simple. Clicking on this button starts the printing process.
+
+(8) Amount of courses that are not completed.
+:   This number shows the number of courses in the current view that are assigned to that associate, but are not completed yet.
+
+(9) Name of the associate.
+:   If you click on any associate's name, you will be taken to a page allowing you to print a list of courses from you selection that are to be completed by the associate. The is even a few instructions on how to connect to Talent Track.
+
+## Step 3 - Let's practice
+
+Now that you have learned how *Talent Tool* works, let's try to create a personalized report. Imagine that you are a Service Manager (if you are that's even better!). You want to assess the training of your associates in the Tech Center and in the Copy Center. Now, as we have seen previously, there are already two reports for that. But you don't want two reports, you want it all on one. OK. Open the `CAN Transcript All Status` report if it is not already open and follow the steps:
+
+1. Click on the button labeled `None`. This will clear the table.
+2. Enter `4f` as filter and select all the listed courses. Clear the field.
+3. Enter `drop` as filter and choose `Drop Off`. Clear the field.
+4. Enter `work` as filter and choose `Work Done`. Clear the field.
+5. Enter `pick` as filter and choose `Pick Up`. Clear the field.
+6. Enter `tech` as filter and choose `EasyTech Onboarding`. Clear the field.
+7. Enter `print pro` as filter and choose `Print Pros` and `Print Pros Certification`. Clear the field.
+8. All that is left to do is decide if you want to print in colors or not and print your shiny new personalized report!
+
+![](img/report.png)

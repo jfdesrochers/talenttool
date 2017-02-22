@@ -1,0 +1,106 @@
+# Manuel de l'utilisateur
+
+Bienvenue dans Talent Tool. Cet outil vous aidera dans le suivi de la formation de votre équipe, mais d'abord, apprenons à l'utiliser.
+
+## Étape 1 - Obtenir les données de Talent Track
+
+Avant de pouvoir manipuler les données de formation et de créer des rapports personnalisés, vous devez obtenir les données de Talent Track. Voici les étapes pour y arriver.
+
+* Connectez-vous à Talent Track. Vous trouverez le lien sur la page principale de The Hub. Alternativement, si vous n'êtes pas sur un ordinateur relié au réseau Staples, vous pouvez accéder le site via ce lien: [http://bit.ly/talenttrack](http://bit.ly/talenttrack).
+
+* Une fois sur Talent Track, dans la barre de menus, mettez votre curseur sur `Mes rapports` et cliquez sur `Rapports`.
+
+![](img/ttreportmenu.png)
+
+Sur la page des rapports, vous trouverez les rapports suivants:
+
+![](img/ttreports.png)
+
+Sur les rapports de la liste, par contre, seuls les quatres premiers nous intéressent:
+
+CAN Compliance Training Index
+:   Représente les cours **obligatoires** que tous les associés et directeurs du magasin doivent suivre.
+
+CAN CPC Training Index
+:   Représente les cours que tous les associés reliés au Centre de Copies et d'Impression doivent suivre.
+
+CAN Tech Training Index
+:   Représente les cours que tous les associés reliés au Techno-Centre doivent suivre.
+
+Si votre objectif est d'avoir le meilleur Indice de formation possible, les trois rapports ci-haut devraient être suffisants. Si, par contre, vous voulez personnaliser la liste de formation aux besoins de votre succursale et/ou faire le suivi de nouveaux cours, vous allez réellement débloquer le plein potentiel de *Talent Tool* avec le rapport suivant:
+
+CAN Transcript All Status
+:   Contient **l'entièreté** de tous les cours complétés ou assignés à vous et vos associés!
+
+Pour les besoins de ce tutoriel, assumons que c'est ce dernier rapport qui vous intéresse. Voici comment le télécharger:
+
+* Cliquez sur la petite flèche dans la colonne `Activités` correspondant au rapport souhaité.
+
+* Dans le menu qui apparaît, cliquez sur `Actualiser`
+
+![](img/ttrefresh.png)
+
+* Le statut passera à `En cours de traitement...` et changera à la date d'aujourd'hui lorsque le rapport sera prêt à télécharger.
+
+* Cliquez de nouveau sur la petite flèche pour ré-ouvrir le menu `Activités` et sélectionnez `Texte` dans les choix présentés. Il est **important** de choisir **Texte**, car *Talent Tool* ne fonctionnera pas avec d'autres formats.
+
+![](img/tttext.png)
+
+> **Note:** Comment savoir en date de quand les données sont-elles à jour? Vous n'avez qu'à regarder les petits caractères en bas de la page: 
+![](img/ttdata.png)
+
+Maintenant que vous avez votre fichier, il est temps de s'amuser avec !
+
+## Étape 2 - Générer des rapports personnalisés avec Talent Tool
+
+Vous venez littéralement de compléter l'étape la plus difficile de l'opération! Découvrons maintenant ce que Talent Tool a à vous offrir. Si vous désirez continuer de suivre ce guide tout en utilisant Talent Tool, [cliquez avec le bouton droit sur ce lien](https://jfdft.com/lms) et sélectionnez `Ouvrir dans un nouvel onglet`. Une fois sur le site, cliquez sur `Choisir le fichier...` et sélectionnez le fichier que vous avez sauvegardé dans l'étape précédente.
+
+![](img/openfile.png) 
+
+> **Note:** Si aucune fenêtre vous permettant de choisir un fichier ne s'ouvre, c'est que vous tentez d'utiliser *Talent Tool* avec un navigateur non supporté. Essayez d'ouvrir la page avec Google Chrome, Mozilla Firefox ou Apple Safari (basiquement tout navigateur sauf Microsoft Internet Explorer). Je recommande Google Chrome, car non seulement offre-t-il la possibilité d'*imprimer* un tableau vers un fichier PDF, mais c'est également le navigateur qui offre *de loin* la meilleure qualité d'impression.
+
+Vous devriez désormais être accueilli avec l'écran suivant:
+
+![](img/interface.png)
+
+(1) Les boutons de sélection de fichier.
+:   Cliquez sur ces boutons si vous voulez charger un autre rapport ou si vous désirez recommencer à zéro.
+
+(2) La liste de sélection des cours.
+:   Cette liste contient l'ensemble des cours contenus dans le rapport que vous avez chargé. Vous pouvez inclure ou retirer un cours du tableau en cliquant dessus.
+
+(3) Les boutons de sélection massive.
+:   Cliquez sur l'un ou l'autre de ces boutons pour retirer ou ajouter *tous* les cours dans votre tableau. **Attention**: cette opération effacera toutes les sélections que vous avez faites précédemment.
+
+(4) Le champ de filtre.
+:   Avec la quantité phénoménale de cours que peut contenir un rapport, il est bon de pouvoir chercher rapidement le cours que l'on recherche! Vous pouvez le faire en tapant quelques mots clés dans ce champ.
+
+(5) Le bouton d'effacement du champ.
+:   Rien de bien spécial, ce bouton est un raccourci pour effacer rapidement le champ de filtre. Notez que vous pouvez également effacer le champ en appuyant sur la touche `échap` sur votre clavier.
+
+(6) L'option d'impression des couleurs.
+:   Par défaut, le tableau sera converti en noir et blanc avant d'être imprimé dans le but d'améliorer la lisibilité et d'épargner vos cartouches d'encre. Si toutefois vous préférez le *flash* des couleurs, vous pouvez cocher cette case pour empêcher cette conversion. **Note**: dans certains navigateurs, vous devez *également* activer une option au moment de l'impression pour imprimer les couleurs d'arrière-plan. Alors soyez aux aguets pour cette option si votre tableau ne s'imprime pas correctement.
+
+(7) Le bouton d'impression.
+:   Simple. Appuyez sur ce bouton pour déclencher l'impression de votre tableau.
+
+(8) Le nombre de cours non-complété.
+:   Ce nombre affiche la quantité de cours qui ont été assignés à l'associé, soit par le système ou par un directeur, et qui n'ont pas encore été complétés.
+
+(9) Nom de l'associé.
+:   Si vous cliquez sur le nom d'un associé dans le tableau, vous accéderez à une page imprimable contenant la liste des cours que cet associé a à compléter, ainsi que des instructions pour se connecter à Talent Track. Parfait pour donner un peu de travail à vos associés !
+
+## Étape 3 - Pratiquons-nous un peu
+
+Maintenant que vous connaissez l'interface de *Talent Tool*, essayons de générer un rapport personnalisé. Nous avons vu précédemment que Talent Track nous offre un rapport pour l'indice de formation du Centre de Copies et d'Impression et du Techno-Centre. Maintenant, supposons que vous être Superviseur de Service et que vous voulez un rapport qui combine les cours de ces deux rapports. Ouvrez le rapport `CAN Transcript All Status` que vous avez créé tout à l'heure et effectuez les étapes suivantes:
+
+1. Cliquez sur le bouton `Aucun` pour effacer la tableau.
+2. Entrez `4t` comme filtre et sélectionnez tous les cours qui sont listés. Effacez le champ.
+3. Entrez `dép` comme filtre et sélectionnez `Dépôt`. Effacez le champ.
+4. Entrez `trav` comme filtre et sélectionnez `Travail accompli`. Effacez le champ.
+5. Entrez `ram` comme filtre et sélectionnez `Ramassage`. Effacez le champ.
+6. Entrez `tech` comme filtre et sélectionnez `Camp d'entraînement Équipe technique fiable`. Effacez le champ.
+7. Entrez `impr` comme filtre et sélectionnez `Formation spécialistes en impression` et `Certification « Spécialiste en impression »`. Effacez le champ.
+8. Décidez si vous voulez imprimer les couleurs ou non et cliquez dur `Imprimer le tableau`. Et voilà un magnifique rapport personnalisé !
+
+![](img/report.png)
